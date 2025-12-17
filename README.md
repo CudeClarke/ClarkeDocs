@@ -2,7 +2,7 @@
 
 Para la instalación del back-end, es necesario un sistema Linux con Java 22, Maven, y una base de datos. Este script usa una base de datos mysql.
 
-Para ejecutar el script se debe copiar a la raiz del proyecto (mismo directorio que el pom.xml del back-end).
+Para ejecutar el script se debe copiar a la raiz del proyecto (mismo directorio que el pom.xml del back-end). Recordar dar los permisos de ejecución necesarios a los scripts con `chmod +x install.sh` y `chmod +x update.sh`
 
 Ejecutar el script install.sh primero: `./install.sh`. El script crea el archivo de servicio clarke_api.service y lo configura automáticamente.
 
