@@ -8,15 +8,18 @@ Ejecutar el script install.sh primero: `./install.sh`. El script crea el archivo
 
 Para actualizar el proyecto se usa el script de despliegue con `./deploy.sh`. El script deploy.sh necesita que se haya ejecutado anteriormente el script de instalación, ya que requiere del usuario y archivo de servicio creados en la instalación.
 
-# Instalación
+## Clonar repositorio
 
 ``` bash
 git clone https://github.com/CudeClarke/ClarkeAPI.git
-cd ClarkeAPI
+```
+## Instalación
+
+``` bash
 ./install.sh
 ```
 
-# Actualización
+## Actualización
 
 ``` bash
 ./update.sh
